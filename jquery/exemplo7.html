@@ -1,0 +1,21 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Alterando atributo ao clicar</title>
+            <meta charset="UTF-8">
+            <script src="../jquery/jquery-3.4.1.js"></script>
+            <script> 
+          $(document).ready(function () {
+          $("button").click(function () {
+          $("a").attr ("href", "2.html");
+             });
+        });
+    </script>
+    </head>
+    <body>
+        <a href="http://devisate.com.br/">Link</a><br>
+        <a href="https://www.google.com.br/">Outro Link</a><br>
+        <button>Alterar Links</button><br>
+        <button>Alterar cor de fundo</button><br>
+        </body>
+    </html>

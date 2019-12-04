@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Usando alguma coisa</title>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script>
+            $ (document) .ready(function(){
+                $("#b1") .click(function() {
+                    $("#div1") .width(300);
+                    $("#div1") .height(300);
+                });
+                $("#b2") .click(function() {
+                    $("#div1") .width(500);
+                    $("#div1") .height(500);
+                });
+            });
+        </script>
+        <style type="text/css">
+            #div1{
+                background-color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Altera o tamanho da div</h1>
+        <div id="div1">Conteudo da div</div>
+        <button id="b1">300x300</button>
+        <button id="b2">500x500</button>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>exemplo 11</title>
+            <meta charset="UTF-8">
+            <script src="js/jquery-3.4.1.min.js"></script>
+            <script> 
+          $(document).ready(function () {
+              $("#b1").click(function () {
+                  alert("Texto: " + $("p").text());
+             });
+             $("#b2").click(function () {
+                alert("HTML: " + $("p").html());
+             });
+        });
+        </script>
+    </head>
+    <body>
+        <p>Texto usando <b>negritos</b></p>
+        <button id="b1">Ver Text</button>
+        <button id="b2">Ver HTML</button>
+        </body>
+    </html>

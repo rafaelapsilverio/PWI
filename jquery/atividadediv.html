@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Alterando a cor da Div</title>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script>
+            $ (document) .ready(function(){
+                $("#div1") .click(function() {
+                });
+                $("#b2") .click(function() {
+                    $("#div1").css("background","blue");
+                });
+                $("#b3") .click(function() {
+                    $("#div1").css("background","yellow");
+                });
+                $("#b4") .click(function() {
+                    $("#div1").css("background","green");
+                });
+                $("#b5") .click(function() {
+                    $("#div1").css("background","red");
+                });
+            });
+        </script>
+        <style type="text/css">
+            #div1{
+                background-color: blue;
+                width: 252;
+                height: 250;
+            }
+            #b2{
+                background-color:blue;
+                width: 60;
+                height: 60;
+            }
+            #b3{
+                background-color:yellow;
+                width: 60;
+                height: 60;
+            }
+            #b4{
+                background-color:green;
+                width: 60;
+                height: 60;
+            }
+            #b5{
+                background-color:red;
+                width: 60;
+                height: 60;
+            }
+            button{
+	        border-top-width: 1px;
+	        border-right-width: 1px;
+	        border-bottom-width: 1px;
+	        border-left-width: 1px;
+	        border-bottom-style: solid;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Alterando a cor da Div</h1>
+        <div id="div1"> </div>
+        <button id="b2"> </button>
+        <button id="b3"> </button>
+        <button id="b4"> </button>
+        <button id="b5"> </button>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>exemplo 10</title>
+            <meta charset="UTF-8">
+            <script src="js/jquery-3.4.1.min.js"></script>
+            <script> 
+          $(document).ready(function () {
+              $("#b1").click(function () {
+                $("#p1").text("novo texto");
+                  
+             });
+             $("#b2").click(function () {
+                $("#p2").html("<strong>Novo texto HTML</strong>");
+                 });
+             $("#b3").click(function () {
+                $("#nome").val("novo conteudo");
+                 });
+        });
+        </script>
+    </head>
+    <body>
+        <h1>Altera o text, html e value</h1>
+        <p id="p1">isso é um paragrafo</p>
+        <p id="p2">isso é outro paragrafo</p>
+        Nome: <input type ="text" id ="nome" value="MikaERafa"/><br><br>
+        <button id="b1">Set text</button>
+        <button id="b2">Set HTML</button>
+        <button id="b3">Set value</button>
+        </body>
+    </html>
